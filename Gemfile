@@ -9,5 +9,7 @@ group :development do
 end
 
 group :test do
+  gem 'webrat'
   gem 'rspec'
+  gem 'spork'
 end
