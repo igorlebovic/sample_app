@@ -1,3 +1,5 @@
+require 'factory_girl'
+Factory.find_definitions
 
 require 'spork'
 Spork.prefork do
